@@ -69,6 +69,7 @@ public class Main {
         admin.addedStudent("mas", "202310370311377", "Teknik", "Informatika");
         admin.addedStudent("keysya", "202310370311363", "Teknik", "Informatika");
         admin.addedStudent("mama", "202310370311000", "Teknik", "Informatika");
+        admin.addedStudent("seelimut", "200410370311150", "kedokteran", "kedokteran hewan");
     }
 
     public void loginAsAdmin() {
@@ -86,7 +87,6 @@ public class Main {
         }
     }
 
-    //method utama
     public static void main(String[] args) {
         System.out.println("SELAMAT DATANG");
         Main lib = new Main();
